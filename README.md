@@ -23,7 +23,7 @@ Summary and steps:
 11- Install mod_wsgi "sudo apt-get install libapache2-mod-wsgi".
 12- Configure the apache to work with wsgi when the ip is called with "/" to route for the directory of the web application (Wsgialias,etc...).
 13- I followed steps for deploying a flask application on ubuntu "https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps".
-14- Installed the programs and packages i need (python,pipm,flask,packaging,oauth2client,redis,passlib,flask-httpauth,sqlalchemy,flask-sqlalchemy,psycopg2-binary,bleach,requests).
+14- Installed the programs and packages i need (git,python,pipm,flask,packaging,oauth2client,redis,passlib,flask-httpauth,sqlalchemy,flask-sqlalchemy,psycopg2-binary,bleach,requests).
 15- Fixed some errors that appears in the item catalog project that appeared when deployed the application on the internet, like file permissions and file paths.
 16- Make git project and commit the initial commit in the web application folder.
 17- Create empty repository in github.
@@ -31,6 +31,7 @@ Summary and steps:
 19- Fixed error in google OAuth2 because i must have a TLD (Top-Level-Domain), so i used xip.io free DNS service.
 20- Put the url of the site in the Auth javascript origin redirects, and it will accept the url, as i tried to put the IP and it give me error.
 21- Facebook login is hard to do because it want my site to be HTTPS.
+22- Configure the local timezone to UTC.
 
 grader key:
 
